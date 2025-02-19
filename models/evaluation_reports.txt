@@ -1,0 +1,126 @@
+============================================================
+Model: glcm_svm_model.pkl
+Accuracy: 0.5556
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67        30
+           1       0.30      0.10      0.15        30
+           2       0.85      0.57      0.68        30
+
+    accuracy                           0.56        90
+   macro avg       0.55      0.56      0.50        90
+weighted avg       0.55      0.56      0.50        90
+
+Confusion Matrix:
+[[30  0  0]
+ [24  3  3]
+ [ 6  7 17]]
+============================================================
+
+============================================================
+Model: glcm_knn_model.pkl
+Accuracy: 0.5222
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.43      0.43        30
+           1       0.42      0.50      0.45        30
+           2       0.79      0.63      0.70        30
+
+    accuracy                           0.52        90
+   macro avg       0.55      0.52      0.53        90
+weighted avg       0.55      0.52      0.53        90
+
+Confusion Matrix:
+[[13 15  2]
+ [12 15  3]
+ [ 5  6 19]]
+============================================================
+
+============================================================
+Model: glcm_decision_tree_model.pkl
+Accuracy: 0.5111
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.60      0.55        30
+           1       0.35      0.30      0.32        30
+           2       0.66      0.63      0.64        30
+
+    accuracy                           0.51        90
+   macro avg       0.51      0.51      0.51        90
+weighted avg       0.51      0.51      0.51        90
+
+Confusion Matrix:
+[[18  9  3]
+ [14  9  7]
+ [ 3  8 19]]
+============================================================
+
+============================================================
+Model: lbp_svm_model.pkl
+Accuracy: 0.4000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.36      1.00      0.53        30
+           1       1.00      0.00      0.00        30
+           2       1.00      0.20      0.33        30
+
+    accuracy                           0.40        90
+   macro avg       0.79      0.40      0.29        90
+weighted avg       0.79      0.40      0.29        90
+
+Confusion Matrix:
+[[30  0  0]
+ [30  0  0]
+ [24  0  6]]
+============================================================
+
+============================================================
+Model: lbp_knn_model.pkl
+Accuracy: 0.6444
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.90      0.75        30
+           1       0.48      0.33      0.39        30
+           2       0.78      0.70      0.74        30
+
+    accuracy                           0.64        90
+   macro avg       0.63      0.64      0.63        90
+weighted avg       0.63      0.64      0.63        90
+
+Confusion Matrix:
+[[27  3  0]
+ [14 10  6]
+ [ 1  8 21]]
+============================================================
+
+============================================================
+Model: lbp_decision_tree_model.pkl
+Accuracy: 0.6889
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.70      0.71        30
+           1       0.61      0.57      0.59        30
+           2       0.73      0.80      0.76        30
+
+    accuracy                           0.69        90
+   macro avg       0.69      0.69      0.69        90
+weighted avg       0.69      0.69      0.69        90
+
+Confusion Matrix:
+[[21  6  3]
+ [ 7 17  6]
+ [ 1  5 24]]
+============================================================
+
