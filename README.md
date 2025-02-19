@@ -1,10 +1,16 @@
+---
+title: Texture_Classification
+app_file: app.py
+sdk: gradio
+sdk_version: 4.44.1
+---
 # Texture Classification Project
 
 ## Overview
 This project implements texture classification using machine learning techniques to distinguish between stone, brick, and wood textures. It utilizes two feature extraction methods: Gray Level Co-occurrence Matrix (GLCM) and Local Binary Patterns (LBP). The project also includes an interactive interface built with Gradio for easy testing and demonstration of the model.
 
 ## Demo
-
+https://huggingface.co/spaces/zoeyziz/Texture_Classification
 
 ## Features
 - Image classification of stone, brick, and wood textures.
